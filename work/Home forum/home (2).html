@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<HTML>
+ <HEAD>
+ <META HTTP-EQWIP="Content Type" CONTENT="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9">
+ <title>Proekt</title>
+
+  <style>
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html, body {
+    background:  #FFFFFF;
+    font: 14px "Lucida Grande",Helvetica,Arial,sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+#Wrapper{
+    height: 100%;
+    width: 100%;
+    min-width: 1008px;
+}
+
+
+#header {
+    background:  #EDEFED;
+    height: 90px;
+    min-width: 1008px;
+}
+
+#headerNav {
+    height: 17px;
+    width: 100%;
+    background-color: #5B74A8;
+    background: -webkit-linear-gradient(#829AA8,#405A6A);
+    background: -moz-linear-gradient(#829AA8, #405A6A);
+    background: -o-linear-gradient(#829AA8, #405A6A);
+    background: linear-gradient(#829AA8, #405A6A);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#829aa8',endColorstr='#405a6a')";
+    border-style: solid;
+    border-color: #677C89 #677C89 #6B808D;
+    border-width: 1px;
+    
+}
+
+
+
+#headerNav ul li {
+    float: right;
+    line-height: 17px;
+    list-style: none outside none;
+    margin-right: 17px;
+    text-decoration: none;
+}
+
+.userLinkItem5 a{
+    margin-right: 40px
+}
+
+.userLink a {
+    color: #C5D5E2;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+#Naw {
+    background: -moz-linear-gradient(#FAFAFA, #EAEAEA) ;
+    background: -webkit-linear-gradient(#FAFAFA, #EAEAEA);
+    background: -o-linear-gradient(#FAFAFA, #EAEAEA);
+    background: linear-gradient(#FAFAFA, #EAEAEA);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA',endColorstr='#EAEAEA')";
+    border-bottom: 2px solid #CACACA;
+    height: 70px;
+    width: 100%
+        
+}
+
+#topNav {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+
+}
+
+#topNav ul {
+  
+}
+#topNav ul li {
+    float: left;
+    list-style: none ;
+    text-decoration: none;
+}
+.text1 {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0 0;
+}
+.text2 {
+    color: #98A9CA;
+    font-size: 14px;
+}
+.text3 {
+    color: #333333;
+    font-size: 39px;
+    margin-top: -10px;
+}
+.text4 {
+    color: #4183C4;
+    font-size: 40px;
+    margin-left: 3px;
+    margin-top: -46px;
+}
+.userLinkItem1 {
+    margin: 0;
+}
+.userLinkItem2 {
+    margin: 0 70px 0 0;
+}
+.userLinkItem3 {
+    margin: 0 0 0 70px;
+}
+.userLinkItem a {
+    border: 1px solid #EEEEEE;
+    color: #4183C4;
+    display: block;
+    font-family: Segoe UI,sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    height: 68px;
+    line-height: 68px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #777777;
+    width: 180px;
+}
+
+
+.userLinkItem1 a {
+    border-bottom: 2px solid #C6C6C6;
+    border-left: 2px solid rgba(255, 255, 255, 0.7);
+    border-right: 2px solid rgba(0, 0, 0, 0.04);
+    color: #555555;
+    display: block;
+    font-size: 28px;
+    height: 65px;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    box-shadow: 0 1px 0 white;
+    text-shadow: 0 1px 0 white;
+    width: 90px;
+    margin-left: 110px
+  
+}
+.userLinkItem2 a {
+    border-bottom: 2px solid #C6C6C6;
+    border-left: 2px solid rgba(255, 255, 255, 0.7);
+    border-right: 2px solid rgba(0, 0, 0, 0.04);
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 65px;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    box-shadow: 0 1px 0 white;
+    text-shadow: 0 1px 0 white;
+    width: 90px;
+}
+.userLinkItem3 a {
+    border-bottom: 2px solid #C6C6C6;
+    border-left: 2px solid rgba(255, 255, 255, 0.7);
+    border-right: 2px solid rgba(0, 0, 0, 0.04);
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 65px;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    box-shadow: 0 1px 0 white;
+    text-shadow: 0 1px 0 white;
+    -ms-transition: box-shadow 0 1px 0 white;
+    width: 90px;
+}
+.userLinkItem4 a {
+    width: 90px;
+    border-bottom: 2px solid #C6C6C6;
+    border-left: 2px solid rgba(255, 255, 255, 0.7);
+    border-right: 2px solid rgba(0, 0, 0, 0.04);
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 65px;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    box-shadow: 0 1px 0 white;
+    text-shadow: 0 1px 0 white;
+ 
+}
+
+
+
+
+.userLinkItem1 a:hover {
+    background: -moz-linear-gradient(#F1F1F1, #E0E0E0); 
+    background: -webkit-linear-gradient(#F1F1F1, #E0E0E0);
+    background: -o-linear-gradient(#F1F1F1, #E0E0E0);
+    background: linear-gradient(#F1F1F1, #E0E0E0);
+    background:-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F1F1F1',endColorstr='#E0E0E0)')";
+    border-bottom: 2px solid #829AA8;
+    color: #4183C4;
+    font-weight: bold;
+}
+.userLinkItem2 a:hover {
+    background-image: -moz-linear-gradient(#F1F1F1, #E0E0E0); 
+    background-image: -webkit-linear-gradient(#F1F1F1, #E0E0E0);
+    background-image: -o-linear-gradient(#F1F1F1, #E0E0E0);
+    background-image: linear-gradient(#F1F1F1, #E0E0E0);
+    background-image:-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F1F1F1',endColorstr='#E0E0E0)')";
+    border-bottom: 2px solid #829AA8;
+    color: #4183C4;
+    font-weight: bold;
+}
+.userLinkItem3 a:hover {
+    background-image: -moz-linear-gradient(#F1F1F1, #E0E0E0); 
+    background-image: -webkit-linear-gradient(#F1F1F1, #E0E0E0);
+    background-image: -o-linear-gradient(#F1F1F1, #E0E0E0);
+    background-image: linear-gradient(#F1F1F1, #E0E0E0);
+    background-image:-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F1F1F1',endColorstr='#E0E0E0)')";
+    border-bottom: 2px solid #829AA8;
+    color: #4183C4;
+    font-weight: bold;
+}
+.userLinkItem4 a:hover {
+    background-image: -moz-linear-gradient(#F1F1F1, #E0E0E0); 
+    background-image: -webkit-linear-gradient(#F1F1F1, #E0E0E0);
+    background-image: -o-linear-gradient(#F1F1F1, #E0E0E0);
+    background-image: linear-gradient(#F1F1F1, #E0E0E0);
+    background-image:-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F1F1F1',endColorstr='#E0E0E0)')";
+    border-bottom: 2px solid #829AA8;
+    color: #4183C4;
+    font-weight: bold;
+}
+.userLinkItem5 a:hover {
+    color: #fff;
+}
+.userLinkItem6 a:hover {
+    color: #fff;
+}
+.userLinkItem7 a:hover {
+    color: #fff;
+}
+#Wrapper {
+    display: block;
+    min-height: 100%;
+    position: relative;
+}
+#content {
+    display: block;
+    padding: 20px 0 100px;
+    width: 100%;
+}
+#site-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+#contentHome {
+    background: none repeat scroll 0 0 #F5F5F2;
+    border-color: #E9F1F4 #D8DEE2 #D8DEE2;
+    border-radius: 0 0 5px 5px;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+    width: 958px;
+}
+#homeOwner {
+    margin: 40px 0 0;
+}
+#homeOwner ol li {
+    color: #1D2A5B;
+}
+#homeOwner h3 {
+    color: #1D2A5B;
+    font-size: 15px;
+    font-weight: normal;
+}
+.subListItem {
+    color: #1D2A5B;
+    font-size: 15px;
+    font-weight: normal;
+}
+.buttonNext1 {
+    background-color: #69A219;
+    border-color: #693;
+    border-style: solid;
+    border-width: 1px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 #98C286 inset;
+    color: white !important;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0 20px 740px;
+    overflow: visible;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    z-index: 1;
+    line-height: 1.35;
+    vertical-align: top;
+}
+.doubleDivider {
+    border-bottom: 1px solid #9AAFCA;
+}
+.buttonNext2 {
+    background-color: #69A219;
+    border-color: #693;
+    border-style: solid;
+    border-width: 1px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 #98C286 inset;
+    color: white !important;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0 20px 720px;
+    overflow: visible;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    z-index: 1;
+    line-height: 1.35;
+    vertical-align: top;
+}
+#contractor {
+    margin: 50px 0 0 20px;
+}
+#contractor h2 {
+    color: #0E385F;
+    font-size: 18px;
+}
+#contractor h3 {
+    color: #1D2A5B;
+    font-size: 15px;
+    font-weight: normal;
+}
+.buttonNext1:active {
+    background: none repeat scroll 0 0 #5F9D44;
+    cursor: pointer;
+}
+.buttonNext1:hover {
+    cursor: pointer;
+}
+.buttonNext2:active {
+    background: none repeat scroll 0 0 #5F9D44;
+    cursor: pointer;
+}
+.buttonNext2:hover {
+    cursor: pointer;
+}
+
+#footer {
+    background: #FFFFFF;
+    border-top: 1px solid #CCCCCC;
+    bottom: 0;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+#footerContact {
+    font-size: 0.9em;
+    height: 60px;
+    left: 0;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 980px;
+}
+#footerContact Copyright {
+    color: #808080;
+}
+#footerContact a {
+    color: #3B5998;
+    text-decoration: none;
+}
+#footerContact a:hover {
+    border-bottom: 1px solid #3B5998;
+}
+
+
+
+  </style>
+
+</HEAD>
+<BODY>
+    <div id="Wrapper">
+
+        <div id="header">  
+            <div id="headerNav">
+                    <ul class="userLink">
+                                    <li class="userLinkItem5">
+                                        <a href="/help">Help</a>
+                                    </li>
+                                    <li class="userLinkItem6">
+                                        <a href="/register">Register</a>
+                                    </li>
+                                    <li class="userLinkItem7"><a href="/login">Log in</a>
+                                    </li>
+                    </ul>
+            </div>
+           
+
+            <div id="Naw">
+                <nav id="topNav">
+                        <ul>
+                            <li class="userLinkItem1">
+                                <a href="#">
+                                    <div class="text1">List
+                                     </div>
+                                     <div class="text2">new project</div>
+                                 </a>
+                            </li>
+                            <li class="userLinkItem2">
+                                <a href="#">
+                                    <div class="text1">Your 
+                                    </div>
+                                    <div class="text2">projects
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="userLinkItem">
+                                <a href="#">
+                                     <div class="text3">Site
+                                     </div>
+                                     <div class="text4">forum     
+                                     </div>
+                                </a>
+                            </li>
+                            <li class="userLinkItem3">
+                                <a href="#">
+                                    <div class="text1">Find
+                                    </div>
+                                    <div class="text2">near you
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="userLinkItem4">
+                                <a href="#">
+                                    <div class="text1">Your
+                                    </div>
+                                    <div class="text2">bids 
+                                     </div>
+                                 </a>
+                            </li>
+                        </ul>
+                </nav>
+                      
+            </div>
+           
+    </div>
+<div id="content">
+    <div id="site-container">
+        <div id="contentHome">
+            <div id="homeOwner">
+                <ol>
+                    <li> <h3>Describe xxxxxxxxxxx                    </h3></li>
+                    <li> <h3>Wait for xxxxxxxxxxx</h3></li>
+                    <li> <h3>Choose your xxxxx xxxxx xxx xxxxxxx xxxxxxx xxxxxxxxxxx</h3>
+                        <div class="subListItem">Need xxxxxx? We can help!</div>
+                    </li><li> <h3>Enjoy xxxxx xx xxxxx!</h3><div class="subListItem">Help others by xxxxx xxx xxxxxxxx!</div></li></ol>
+                    <a class="buttonNext1" href="/list"> <span .get_started="">Create an account</span></a>
+            </div>
+            <div class="doubleDivider"></div>
+            <div id="contractor"><h2>Contractor?</h2><h3>We make xxxxxx xxxx xxxx xxx xxxx!</h3><a class="buttonNext2" href="/search"> <span .find_near="">Create an account</span></a></div>
+        </div>
+    </div>
+</div>
+    <div id="footer">
+        <div id="footerContact">
+            <copyright>&copy; Domus Forum 2016 &nbsp;&nbsp;<a href="/about">About </a>&nbsp;
+            |  &nbsp;<a href="/contact">Contact Us</a>
+            </copyright>
+        </div>
+    </div>
+</div>
+</BODY>
+</HTML>

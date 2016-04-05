@@ -1,0 +1,34 @@
+// This section begins the data held in the "objMLB" object
+// Normally, this would be in a database and would be available via Ajax or some other method
+var currentItem = 1,
+objMLB = {
+	headlineText: [
+		"Perfect",
+		"Thome",
+		"Among",
+		"Extra",
+		"Just",
+		"MLB"
+	], // headlineText
+	
+	
+
+	descText: [
+		"Phillies 2222222222222222\n22222222222222\n222222222222222\n2222222222222222\n22222222222222222222\n22222222222222222222\n2222222222222222",
+		"wwwwwwwwwwwwwwwww\nwwwwwwwwwwwwwwwwwwww\nwwwwwwwwwwwwwwwwwwwwwww\nwwwwwwwwwwwwwwwwwwwwwwwww\nwwwwwwwwwwwwww\nwwwwwwwwwwwwwwwwwww\nwwwwwwwwwwwwww",
+		"Detroit's 2222222222222222\n22222222222222\n222222222222222\n2222222222222222\n22222222222222222222\n2222222222222222222\n2222222222222222",
+		"Ty 2222222222222222\n22222222222222\n222222222222222\n2222222222222222\n22222222222222222222\n2222222222222222222\n2222222222222222",
+		"The 2222222222222222\n22222222222222\n222222222222222\n2222222222222222\n22222222222222222222\n2222222222222222222\n2222222222222222",
+		"MLBundays 2222222222222222\n22222222222222\n222222222222222\n2222222222222222\n22222222222222222222\n2222222222222222222\n2222222222222222"
+	], // descText
+
+	extURL: [
+		"#1",
+		"#2",
+		"#3",
+		"#4",
+		"#5",
+		"#6"
+	] // descText
+
+}; // objMLB ends here

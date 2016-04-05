@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<HTML>
+ <HEAD>
+ <META HTTP-EQWIP="Content Type" CONTENT="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9">
+ <title>Proekt</title>
+
+  <style>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html, body{
+	width:100%;
+	height: 100%;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: white;
+}
+
+#Wrapper{
+	display:block;
+	position: relative;
+	min-height: 100%;
+
+}
+
+		/*-----------------------Begin Header---------------------------*/
+
+#header{
+	height:82px;
+	width:100%;
+	min-width: 1008px;
+	margin:0 auto;
+	background: url(body-bg.png) repeat-x 0 0;
+}
+#nav{
+	margin-left: auto;
+	margin-right: auto;
+	width:980px;
+	height:80px;
+}
+
+#rightmeny{
+	float:right;
+	margin: 35px 0;
+
+}
+
+#rightmeny ul li{
+	float: left;
+	list-style:none
+
+}
+
+#passwordtext{
+	height:23px;
+	color: #999;
+    font-size:15px;
+    padding: 0 0px 0 3px;
+    background-color:white;
+    border: 1px solid #D8DEE2;
+	margin: 0 5px 0 10px;
+}
+
+#password{
+	height:23px;
+	font-size:15px;
+    padding: 0 0px 0 3px;
+    background-color:white;
+    border: 1px solid #D8DEE2;
+	margin: 0 5px 0 10px;
+}
+
+#emailtext{
+	height:23px;
+	color: #999;
+    font-size:15px;
+    padding: 0 0px 0 3px;
+    background-color:white;
+    border: 1px solid #D8DEE2;
+}
+
+#email{
+	height:23px;
+    font-size:15px;
+    padding: 0 0px 0 3px;
+    background-color:white;
+    border: 1px solid #D8DEE2;
+}
+#Header-login-submit{
+	height:24px;
+  
+    border: 1px solid #DDD;
+    padding:0px 8px 0px 8px;
+    z-index: 1;
+	overflow: visible;  
+	display: inline-block;  
+	border: 1px solid;   
+	text-decoration: none;  
+	text-align: center;
+	font: bold 13px normal 'lucida grande', tahoma, verdana, arial, sans-serif;  
+	white-space: nowrap;  
+	cursor: pointer;  
+	zoom: 1; 
+	border-color:#29447E #29447E #1A356E;
+	color: #fff;
+	background-color: #5B74A8;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5B74A8), to(#5B74A8));
+	background-image: -moz-linear-gradient(#5B74A8, #5B74A8);
+	background-image: -o-linear-gradient(#5B74A8, #5B74A8);
+	background-image: linear-gradient(#5B74A8, #5B74A8);
+	progid: gradient(startColorStr='#5B74A8', EndColorStr='#5B74A8'); /* for IE 6 - 9 */
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286; 
+}
+
+
+#logo{
+	float: left;;
+	margin:20px 0 0 0;
+}
+
+		/*-----------------------End Header---------------------------*/
+
+
+		/*-----------------------Begin Content---------------------------*/
+
+#content{
+	display:block;
+	width: 100%;
+	padding:20px 0px 100px;
+	margin:0px;
+}
+
+#site-container{
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#loginFormm{
+	width:360px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 20px solid rgba(0,0,0,0.3);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+	padding:10px;
+	background:#E9F1F4;
+} 
+
+#nameHeadLogin{
+	width:350px;
+    border-bottom: 1px solid #CCC;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:5px;
+} 
+
+
+#nameHeadLoginRegister {
+    color:#1d54c8;
+    text-decoration: none;
+}
+
+#nameHeadLogin h2{
+    text-align:left;
+    font-size:34px;
+    color:#133783;
+    font-weight:bold;
+    padding: .0em .2em;
+}
+
+#nameHeadLogin p{ 
+    text-align:left;
+    font-size:.85em;
+    font-weight: bold;
+    color:#777;
+    padding: .0em .6em;
+}
+
+#namePasswordLogin{
+    width:320px;
+    text-align:left;
+    color:#333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+
+#namePasswordLogin h2  a{
+    text-decoration:none;
+    font-size: .85em;
+}
+
+#formEmail{
+	font-weight: bold;
+	padding-bottom:10px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#formEmail h2{
+	margin: 5px 0 5px 0;
+}
+
+#login-username{
+	width: 98%;
+	height:25px;
+}
+
+#formPassword{
+	font-weight: bold;
+	padding-bottom:10px;
+	margin-top:15px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#formPassword h2{
+	margin: 5px 0 5px 0;
+}
+
+#formForgotPassword{
+    text-align:left;
+    font-size:34px;
+    color:#1d54c8;
+    font-weight:bold;
+    padding: .0em .2em;
+}
+
+#formPassword p{
+	text-align:left;
+	font-size:.85em;
+	font-weight: bold;
+	color:#777;
+	padding: .0em .6em;
+}
+
+#login-keepsignedin{
+	margin: 15px 10px 5px 0;
+}
+
+#login-keep{
+	font-size: .85em;
+	font-weight: normal;
+}
+
+#login-password{
+	width: 98%;
+	height:25px;
+}
+  
+#login-submit {
+	margin: 10px 0px 20px 0px; 
+	padding: 5px 20px;
+	z-index: 1;
+	overflow: visible;  
+	display: inline-block;  
+	border: 1px solid;   
+	text-decoration: none;  
+	text-align: center;
+	font: bold 15px normal 'lucida grande', tahoma, verdana, arial, sans-serif;  
+	white-space: nowrap;  
+	cursor: pointer;  
+	zoom: 1; 
+	border-color:#29447E #29447E #1A356E;
+	color: #fff;
+	background-color: #5B74A8;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5B74A8), to(#5B74A8));
+	background-image: -moz-linear-gradient(#5B74A8, #5B74A8);
+	background-image: -o-linear-gradient(#5B74A8, #5B74A8);
+	background-image: linear-gradient(#5B74A8, #5B74A8);
+	progid: gradient(startColorStr='#5B74A8', EndColorStr='#5B74A8'); /* for IE 6 - 9 */
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286; 
+}
+
+
+		/*-----------------------End Content---------------------------*/
+
+
+
+		/*-----------------------Begin Footer---------------------------*/
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  min-width: 1008px;
+  height:70px;
+  border-top: 1px solid #CCC;
+  background: #FFFFFF;
+ } 
+  
+#footerContact{
+  position: relative;
+  left:0px;
+  top:5px;
+  width:980px;
+  height:60px;
+  font-size: .9em;
+  text-align:center;
+  line-height:60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerContact ul{
+	margin-left: auto;
+    margin-right: auto;
+	margin: 0px 0px 0px 300px;
+}
+
+#footerContact ul li{
+   float: left;
+   list-style:none;
+}
+
+#footerContact  a {
+   color:#3B5998;
+   text-decoration:none;
+}
+
+
+#footerContactAbout{
+	margin: 0 10px 0 10px;
+}
+
+ 		/*-----------------------End Footer---------------------------*/
+
+  </style>
+
+ </HEAD>
+ <BODY>
+
+<div id="Wraper">
+
+	<!-- Begin Header-->
+
+	<div id="header">
+		<div id="nav">
+			<div id="rightmeny">
+				<form>
+				    <input type="text" id="passwordtext" value="Password" onclick="switchto(1)" onkeydown="switchto(1)">
+				    <input type="password" id="password" value="" onblur="if (this.value=='')switchto(0)" style="display:none">
+				    <input type="text" id="emailtext" value="Email" onclick="switchtoo(1)" onkeydown="switchtoo(1)">
+				    <input type="email" id="email" value="" onblur="if (this.value=='')switchtoo(0)" style="display:none">
+					<input type="submit", value="Log in", id="Header-login-submit"> 
+			    </form>
+			</div>
+
+			<div id="logo">
+				<a href="#"> <img src="11.jpg" alt="logo"> </a>
+			</div>
+
+		</div>	
+
+	</div>
+
+	<!-- End Header-->
+
+	<!-- Begin Content -->
+
+	<div id="content">
+		<div id="site-container">
+			<div id="loginFormm">
+				<div id="nameHeadLogin">
+					<h2> Log in </h2> 
+					<p> Don't have an account yet? Please <a href='/#' id="nameHeadLoginRegister"> register </a> </p>
+				</div>	
+				<div id="namePasswordLogin">
+					<div id="formEmail">
+						<h2>Email address:</h2>
+						<input type="text", placeholder="Email", name="username", id="login-username">
+					</div>
+					<div id="formPassword">	
+						<h2> Password: <a href='/#' id="formForgotPassword"> Forgot your password? </a></h2>
+ 						<input type="password", placeholder="Password", name="password", id="login-password")>
+						<p id="login-keep"><input type="checkbox", id="login-keepsignedin"> Keep me signed in
+					</div>
+					<div>
+						<input type="submit", value="Log in", name="submit", id="login-submit" >
+					</div>		
+				</div>	
+
+			</div>	
+
+
+		</div>
+	</div>	
+
+	<!-- End Content -->
+
+	<!-- Begin footer -->
+
+	<div id="footer">
+		<div id="footerContact">
+			<p>Copyright &copy;  <a href='/about' id="footerContactAbout"> About </a> <a href='/contact'> Contact Us</a> </p> 
+		</div>
+	</div>	
+
+	<!-- End Footer-->
+	
+</div>	
+
+
+ <script>
+
+    function switchto(q){
+        if (q){
+            document.getElementById('passwordtext').style.display="none";
+            document.getElementById('password').style.display="inline";
+            document.getElementById('password').focus();
+        } else {
+            document.getElementById('password').style.display="none";
+            document.getElementById('passwordtext').style.display="inline";
+        }
+    }
+
+    function switchtoo(w){
+        if (w){
+            document.getElementById('emailtext').style.display="none";
+            document.getElementById('email').style.display="inline";
+            document.getElementById('email').focus();
+        } else {
+            document.getElementById('email').style.display="none";
+            document.getElementById('emailtext').style.display="inline";
+        }
+    }
+
+  </script>
+
+ </BODY>
+ </HTML>
